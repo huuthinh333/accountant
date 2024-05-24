@@ -1,0 +1,62 @@
+{
+    "_id": {
+      "$oid": "65f447f1c8f1b8ab1d59c96a"
+    },
+    "public": {
+      "input": {
+        "jsonSchema": {
+          "type": "object",
+          "required": [
+            "input"
+           
+          ],
+          "properties": {
+            "input": {
+              "type": "number",
+              "title": "input",
+              "enum": [
+                1,
+                0
+              ],
+              "default": 2024
+            } 
+          }
+        },
+        "uiSchema": {},
+        "jsonData": {},
+        "jsonInfo": {
+          "Name": "Bill_Module",
+          "author": "Đỗ Đồng",
+          "ver": "2024-3-10"
+        },
+        "jsonPath": {
+          "col": "Null",
+          "db": "Null"
+        }
+      },
+      "output": {
+        "jsonSchema": {},
+        "jsonData": {},
+        "jsonInfo": {
+          "author": "Đỗ Đồng",
+          "ver": "2024-3-10"
+        },
+        "jsonPath": {
+          "db": "Null",
+          "coll": "Null"
+        },
+        "uiSchema": {}
+      },
+      "info": {
+        "name": "Bill_Module"
+      }
+    },
+    "private": {
+      "processing": []
+    },
+    "personal": {
+      "noted1": "JSON Schema Bill ver 1.0",
+      "summary": "Thông tin thêm"
+    }
+  }
+  
